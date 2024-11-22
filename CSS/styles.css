@@ -127,6 +127,12 @@ footer {
   color: #ececec;
   margin-top: 15px;
   padding: 0 8px;
+  height: 25px;
+  width: 25px;
+}
+
+object {
+  pointer-events: none;
 }
 
 #contact {
