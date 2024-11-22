@@ -9,6 +9,7 @@ main {
   padding: 0.5rem;
   background-color: #ececec;
   color: #2f3037;
+  max-width: auto;
 }
 
 hr {
@@ -47,12 +48,13 @@ header {
 }
 
 nav {
+  max-width: auto;
   height: 40px;
   display: flex;
   justify-content: space-between;
   font-size: 0.9rem;
   align-items: center;
-  padding: 0px 5px;
+  /* padding: 0px 5px; */
 }
 
 #navbar {
@@ -76,13 +78,11 @@ nav {
 .nav-link:hover {
   text-decoration: none;
   background-size: cover;
-  background-color: #50525e;
   font-size: 1rem;
 }
 
 .nav-link:active {
   text-decoration: none;
-  background-color: #50525e;
   font-size: 1rem;
 }
 
