@@ -88,7 +88,6 @@ nav {
 
 #webdev {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   row-gap: 20px;
@@ -98,6 +97,21 @@ nav {
   margin: 0px 15px;
   width: 40px;
   height: 40px;
+}
+
+.ul-skills {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.li-1st {
+  padding: 5px;
+  border: 1px solid #50525e;
+  margin: 0 5px 5px;
 }
 
 footer {
