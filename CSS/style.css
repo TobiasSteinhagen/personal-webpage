@@ -140,6 +140,12 @@ nav {
   align-items: center;
 }
 
+#portfolio-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .webdev-icon {
   margin: 0 0.9375rem;
   width: 2.5rem;
